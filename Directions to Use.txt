@@ -1,0 +1,15 @@
+This is a project which can encrypt and decrypt a given text on the basis of the following parameters:
+	Shift Value
+	Block Size
+
+Giving Input: 
+	1. First of All Enter the String which you want to encrypt.
+
+	2. Next Enter a Shift Value which shifts the Character by a certain number.
+		for eg : if the string is "ABCD" and the shift value is 2 then the resulting string will be "CDEF"
+		
+	3. Then Enter a Block Size which creates blocks of certain size and fills the remaining space with 'x'
+		for eg : if the string is "CDEF" and the block size is 3 then the resulting string will be "CDE Fxx"
+
+		THis gives you the Encrypted String.
+		The decrypted string is the initial string removing all the spaces.
